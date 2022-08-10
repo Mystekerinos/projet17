@@ -5,7 +5,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 function App() {
   return (
     <div>
-      //for routing applicatio
+      //for routing application
       <Routes>
         <Route exact path="/" element={<Navigate to="/Accueil" />} />
         <Route exact path="/Accueil" element={<Accueil />} />
