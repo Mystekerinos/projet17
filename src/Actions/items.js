@@ -33,6 +33,7 @@ export function itemsFetchDataSuccess(array) {
   };
 }
 
+// Select  the data in API
 export function itemsFetchData(url) {
   return (dispatch) => {
     dispatch(itemsAreLoading(true));
@@ -55,6 +56,7 @@ export function itemsFetchData(url) {
   };
 }
 
+//Select data in API after reload
 export function firstItemsGetDataName(url) {
   return (dispatch) => {
     dispatch(itemsAreLoading(true));
@@ -77,12 +79,14 @@ export function firstItemsGetDataName(url) {
   };
 }
 
+//Select  the right  name
 export function nameFetchData(name) {
   return (dispatch) => {
     dispatch(getCity(name));
   };
 }
 
+//Reselect  the right  name after reload
 export function firstNameFetchData(name) {
   return (dispatch) => {
     dispatch(getCity(name));
