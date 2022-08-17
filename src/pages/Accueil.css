@@ -1,0 +1,12 @@
+section {
+  font-size: medium;
+}
+
+/* title underline  */
+.section__heading {
+  text-decoration: underline;
+}
+
+p {
+  text-align: center;
+}
